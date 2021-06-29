@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import GetAll from './GetAll';
+import Get from './Get';
+import Create from './Create';
+import Update from './Update';
+import Delete from './Delete';
+import { BrowserRouter} from "react-router-dom";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter><App/></BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
